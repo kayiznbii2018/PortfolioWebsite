@@ -47,12 +47,61 @@ Twilight Lavender - 754668
     padding-bottom: 100px;
 }
 
+.text-overlay {
+    color: #6b6b6b;
+    position: absolute;
+    top: 60%;
+    right: 35%;
+    height: 100%;
+}
+
+.img-text-left {
+    background-color: rgb(30, 32, 25);
+    border-radius: 5px solid rgb(150, 29, 78);
+    color: #961D4E;
+    position: absolute;
+    top: 0%;
+    width: 40%;
+    height: 100%;
+}
+
+.img-text-right {
+    background-color: rgb(30, 32, 25);
+    color: #961D4E;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+}
+
+.container-text-overlay {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.img-border {
+    border: 3px solid rgb(150, 29, 78);
+    border-radius: 25px;
+    padding: 5px;
+}
+
 h1 {
     font-size: 150px;
     letter-spacing: 2px;
-    font-weight: bold;
     text-align: center;
-    color: #1E2019;
-    text-shadow: 3px 3px 0px #464646;
+    color: #bebebe;
 }
+
+h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #6b6b6b;
+}
+
+img {
+    border-radius: 25px;
+}
+
+
 
