@@ -56,22 +56,24 @@ Twilight Lavender - 754668
 }
 
 .img-text-left {
-    background-color: rgb(30, 32, 25);
-    border-radius: 5px solid rgb(150, 29, 78);
-    color: #961D4E;
+    background-color: rgb(216, 216, 216);
+    color: #1E2019;
+    text-align: center;
     position: absolute;
-    top: 0%;
-    width: 40%;
-    height: 100%;
+    top: 1%;
+    width: 30%;
+    height: 98%;
 }
 
 .img-text-right {
-    background-color: rgb(30, 32, 25);
-    color: #961D4E;
+    background-color: rgb(216, 216, 216);
+    color: #1E2019;
+    text-align: center;
     position: absolute;
-    top: 0%;
-    right: 0%;
-    height: 100%;
+    top: 1%;
+    right: 0.5%;
+    width: 30%;
+    height: 98%;
 }
 
 .container-text-overlay {
@@ -82,9 +84,9 @@ Twilight Lavender - 754668
 
 .img-border {
     border: 3px solid rgb(150, 29, 78);
-    border-radius: 25px;
     padding: 5px;
 }
+
 
 h1 {
     font-size: 150px;
@@ -98,10 +100,5 @@ h2 {
     letter-spacing: 2px;
     color: #6b6b6b;
 }
-
-img {
-    border-radius: 25px;
-}
-
 
 
